@@ -4,8 +4,9 @@ pipeline {
     stage('Build') {
       steps {
         sh '''date
-time
-ls'''
+
+
+time'''
       }
     }
 
@@ -17,7 +18,7 @@ ls'''
           }
         }
 
-        stage('') {
+        stage('error') {
           steps {
             echo 'Unit test '
           }
